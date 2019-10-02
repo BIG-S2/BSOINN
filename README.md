@@ -16,10 +16,11 @@ iv. [Democode-simulation]
 v. [Democode-realdata]
 
 vi. [Implementing Democode]
-BSOINN-package
+
+# BSOINN-package
 "BSOINN" package (package version 1.0) conducts Bayesian inference for a scalar on image regression model with non-ignorable non-response, which implements the method proposed in the paper "Bayesian scalar on image regression with non-ignorable non-response".
 
-Overview
+# Overview
 This package contains three functions for the Bayesian scalar on image (BSOI) regression model.
 
 The three functions of the package are as follows:
@@ -32,7 +33,7 @@ The function "BSOINN" conducts Bayesian inference for a BSOI with non-ignorable 
 
 The three functions are based on the functional principal component analysis (FPCA) for imaging data, which can be implemented using the "fast.svd" function in the package of "corpcor" (package version 1.6.9). Details of the FPCA can be found in the paper and the democode for the simulation study. A demo code that uses the ¡°fast.svd¡± function to perform FPCA on images is also introduced below.
 
-Installing BSOINN
+# Installing BSOINN
 Installing BSOINN on Windows:
 Download and install R software (R version 3.6.1) from http://cran.r-project.org.
 Download and install Rtools (Rtools version 34) from http://cran.r-project.org/bin/windows/Rtools/. During the installation process, please check the box provided to edit the system PATH, so that the C++ compiler included in Rtools can be used by R.
@@ -54,7 +55,7 @@ Install package "BSOINN" from the local package archive "BSOINN_1.0.tar.gz".
 Democode-FPCA-on-images
 This demo code is for reading imaging data and performing FPCA on the images. Please refer to Section 2.1 of the manuscript for the description of FPCA.
 
-Democode-simulation
+# Democode-simulation
 The democode of parameter estimation for the simulation study from the paper can be found in the file "simulation_example_estimation.R" from the folder "Democode-simulation-estimation".
 
 The democode of out-of-sample prediction for the simulation study from the paper can be found in the file "simulation_example_prediction.R" from the folder "Democode-simulation-prediction".
@@ -63,7 +64,7 @@ After installing the package "BSOINN" (this package) and "corpcor" (can be insta
 
 Please refer to the R files for detailed codes and explanations.
 
-Democode-realdata
+# Democode-realdata
 The democode of parameter estimation for the real data analysis using ADNI data set from the paper can be found in the file "realdata_example_estimation.R" from the folder "Democode-realdata-estimation".
 
 The democode of out-of-sample prediction for the real data analysis using ADNI data set from the paper can be found in the file "realdata_example_prediction.R" from the folder "Democode-realdata-prediction".
@@ -84,7 +85,7 @@ After installing the package "BSOINN" (this package), these R programs can be im
 
 Please refer to the R files for detailed codes and explanations.
 
-Implementing Democode
+# Implementing Democode
 Democode-FPCA-on-images:
 the code should be adjusted before use. The guideline is provided in the code.
 Democode-simulation-estimation:
@@ -107,7 +108,7 @@ The out-of-sample prediction results are automatically shown on the R console.
 
 The approximate runtime for the demo code is 25 seconds for one replication.
 
-Democode-realdata-estimation:
+# Democode-realdata-estimation:
 set the folder "Democode-realdata-estimation" as the working directory in R.
 
 implementing the file "realdata_example_estimation.R" through the following command:
