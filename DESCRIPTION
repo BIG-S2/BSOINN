@@ -1,0 +1,14 @@
+Package: BSOINN
+Type: Package
+Title: Bayesian Scalar on Image Regression with Non-ignorable
+        Non-response
+Version: 1.0
+Date: 2019-09-21
+Author: Feng X.N., Li T.F., Song X.Y. and Zhu H.T.
+Maintainer: Who to complain to <fengxiangnan123@gmail.com>
+Description: Conduct Bayesian inference for a scalar on image regression with non-ignorable non-response. 
+License: GPL-2
+Imports: Rcpp (>= 0.12.4)
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2019-09-25 14:49:40 UTC; Xiangnan-swjtu
